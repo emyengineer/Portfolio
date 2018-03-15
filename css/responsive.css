@@ -1,0 +1,215 @@
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+	[class*="zocial-"]:before {
+	    font-family: 'zocial', sans-serif;
+	    display: inline-block;
+	    font-family: 'zocial', sans-serif;
+	    text-shadow: 3px 3px 3px #aaa;
+	    width:  2em;
+	}
+	.zocial-twitter{
+	    color:#00acee;
+	}
+	.zocial-digg{
+	    color:#3B5920;
+	}
+	.zocial-facebook{
+	  color:#3B5998
+	}
+	.zocial-googleplus{
+	    color:#dd4b39;
+	}
+ 
+	.container{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.box{
+		width: 100%
+	}
+
+
+
+
+/* .banner{
+	width: 100vw;
+	height:10px;
+	max-width: 100vw;
+}
+.bannerfig{
+	width: 100vw;
+}*/
+
+/* Banner */
+.bannerfigure{
+	margin: 0 1em 0 0;
+}
+.bannerimage{
+	max-width: 100%;
+	width: 100%;
+    border: 2px solid #dd4b39;
+}
+.bannerfigcaption{
+	padding-top: 10px;
+	font-size: 3vw;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: left;
+}
+.hopeQuote{
+	text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3vw;
+    background: rgba(0,0,0,0.2);
+}
+/*Figures of Featured Work */
+.featurelink{
+	font-size: 2vw;
+	/*display: flex;*/
+	/*flex-wrap: wrap;*/
+}
+.featurefigure{
+	margin: 0 1em 0 0;
+	padding: 10px 0 0 0;
+}
+.featurefigcaption{
+	padding-top: 10px;
+	font-size: 2vw;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+/*End of Figures styles*/
+
+/* Header */
+/*.navbar-brand {
+	float: left;
+	padding: 40px 15px;
+	font-size: 18px;
+	line-height: 23px;
+	height: 2em;
+	width: 20vw;
+}*/
+.header {
+	display: flex;
+	/*flex-wrap: nowrap;*/
+	flex-flow: wrap;
+	-webkit-box-align: center;
+	width: 98%; 
+	/*text-align: right;*/
+	/*border-bottom: 2px solid  #dd4b39;*/
+	max-width: 100%;
+}
+
+
+.logo{
+	padding: 1rem 0 0 0;
+}
+.logoimg{
+	height: 12vh;
+    width: 20vw;
+	max-width: 100%;
+	padding-bottom: 0.7rem;
+}
+h1{
+	font-size: 1.5em;
+	text-align: right;
+}
+p{
+	text-align: right;
+}
+/*End of Header Styling*/
+/*Footer*/
+.footer{
+	display: flex;
+    flex-flow: nowrap;
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+/*End of Footer styling*/
+
+@media screen and (min-width: 410px) {
+      .banner{
+			width: 100%;
+		}
+	  /*.featuredwork{
+			width: 100%;
+		}*/
+		.worksample{
+			width: 100%;
+		}
+		.featuredfig{
+			width: 100%;
+			max-width: 100%;
+			height: 30vh;
+			border: 2px solid #dd4b39;
+		}
+		.footercontainer{
+			display: flex;
+		    flex-wrap: wrap;
+		    align-items: center;
+		    padding: 0em 0 0em 0em;
+		    width: 100vw;
+		}
+
+		/*Header*/
+		.logo{
+			width:10%;
+		}
+		.name{
+			width: 80%;
+		}	
+    }
+	  
+
+@media screen and (min-width: 750px) {
+	.container{
+		width: 98%;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+	}
+		.banner{
+			width: 100%;
+		}
+		.bannerfig{
+			width: 100%;
+		}
+		.featuredwork{
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+		.worksample{
+			width: 33%;
+		}
+		.featuredfig{
+			width: 100%;
+			height: 45vh;
+		}
+		.footercontainer{
+			display: flex;
+		    flex-wrap: wrap;
+		    align-items: center;
+		    padding: 2em 0 2em 10em;
+		    width: 100vw;
+		}
+}
+@media screen and (min-width: 850px) {
+
+	body{
+		width:80%;
+		margin-right: auto;
+		margin-left: auto;
+
+	}
+}  
