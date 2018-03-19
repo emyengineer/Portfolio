@@ -129,20 +129,22 @@ h2{
 	.zocial-digg{
 	    color:#3B5920;
 	}
-	.zocial-facebook{
+	.zocial-facebook {
 	  color:#3B5998
 	}
-	.zocial-googleplus{
+	.zocial-googleplus {
 	    color:#dd4b39;
 	}
-	.footer{
+	.footer {
 	display: flex;
     flex-flow: nowrap;
     width: 100%;
     max-width: 100%;
     flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-left: 17%;
 	}
-	a{
+	a {
 	  display:inline-block;
 	  left:2%;
 	  margin-right:5%;
@@ -152,7 +154,7 @@ h2{
 	  margin-top:10px;
 	  font-weight:bold;
   	}
-	i ,abbr{
+	i ,abbr {
       display:inline-block;
       left:2%;
       margin-right:5%;
